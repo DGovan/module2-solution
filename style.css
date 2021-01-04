@@ -16,21 +16,21 @@ h1 {
 
 body{
 	
-	background-color: #FFF5EE;
-	font-family: mv boli;
+	background-color: blue
+	font-family: arial;
 }
 
 .container {
 		margin:10px;		
-		background-color: #D8BFD8;		
+		background-color: #d8bfbf;		
 		color:black;
-		width:90%
-		height:150px;		
+		width:95%
+		height:150px;	
 		border:2px solid #000000;
 		padding: 0px;
     }
     
-h2{
+#h2{
   padding: 2px 7px;
   border-left: 2px solid #000;
   border-bottom: 2px solid #000;
