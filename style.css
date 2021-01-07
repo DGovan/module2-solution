@@ -1,18 +1,36 @@
 body{
 	background-color: blue;
 	margin: 0;
-	height: 100px;
+	padding: 0;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cover {
+	padding: 10px;
+	max-width: 960px;
+	width: 90%;
+	margin 25px
+}
+
+h1 {
+	text-align: center;
+	font: 20px;
+	padding: 0 25px;
 }
 
 .container {
+	background-color: orange;
+	color: #000;
 	width: 95%;
-	display: grid;
-	grid-gap: 30px
+	padding: 0;
+
 }
 
 .box {
-	color: orange;
+	color: red;
 	border: 3px white;
 	height: 150px;
+	margin: 2px;
+	padding: 5px;
 
 }
