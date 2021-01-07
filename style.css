@@ -1,3 +1,7 @@
+* {box-sizing: border-box;
+	
+}
+
 body{
 	background-color: blue;
 	margin: 0;
@@ -18,11 +22,14 @@ h1 {
 	padding: 0 25px;
 }
 
+h2 {
+	text-align: right;
+}
 .container {
-	background-color: orange;
+	color: orange;
 	color: solid black;
 	width: 95%;
-	padding: 0;
+	padding: px;
 	margin: 5px;
 
 }
@@ -33,7 +40,23 @@ h1 {
 	padding: 10px;
 	background-color: pink;
 	float: right;
-	border-left: 2px solid black;
-    border-bottom: 2px solid black;
+	border: 2px solid black;
+	width: 300px;
+
+}
+
+@media (min-width: 992px) {
+	.container .box {
+		margin-bottom:5px;
+		flex-basis: 40%;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (max-width:767px) {
 
 }
