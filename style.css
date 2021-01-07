@@ -20,7 +20,7 @@ h1 {
 
 .container {
 	background-color: orange;
-	color: #000;
+	color: solid black;
 	width: 95%;
 	padding: 0;
 	margin: 5px;
@@ -29,10 +29,11 @@ h1 {
 
 .box {
 	color: red;
-	border: 3px white;
 	margin: 2px;
 	padding: 10px;
 	background-color: pink;
 	float: right;
+	border-left: 2px solid black;
+    border-bottom: 2px solid black;
 
 }
