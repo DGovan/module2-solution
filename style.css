@@ -45,7 +45,7 @@ h2 {
 
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
 	.container .box {
 		margin-bottom:5px;
 		flex-basis: 40%;
